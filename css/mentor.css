@@ -1,0 +1,106 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-bold";
+}
+
+.link{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.navbar-list{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat-light"
+}
+
+.middle
+{
+	margin: 0;
+	background-image: url("../images/women.jpg");
+  background-repeat: no-repeat;
+	width: 100%;
+	min-height: 700px;
+	background-size: 100% 100%;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+  padding: 15% 10%;
+  text-align: center;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.download-button:hover{
+  background-color: #D47FA6;
+border: solid black;
+color: black;
+}
+
+.icon2{
+  margin: 5% 2% 3%;
+  color: black;
+}
+
+.icon2:hover{
+  color: white;
+}
+
+.footer-section{
+  background-color: #D47FA6;
+    padding: 1% 15%;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#r1{
+  display: none;
+}
+#r2{
+  display: none;
+}
+#courses{
+      padding: 100px;
+    }
+
+    .price-text{
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    .pricing-column{
+      padding: 3% 2%;
+    }
+
+    .card-body{
+      padding-top: 4%;
+      padding-bottom: 4%;
+    }
+
+   .course-img{
+     padding-bottom: 1rem;
+   }
+
+   .btn:hover
+   {
+   	background-color: #D47FA6;
+   	border: 4px solid black;
+   	color: black;
+   }

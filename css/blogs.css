@@ -1,0 +1,130 @@
+/* #241332,#8A56AC,#D47FA6 */
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-bold";
+}
+
+.link{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.navbar-list{
+  padding: 0 10px;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+  font-family: "Montserrat-light"
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.content{
+height: 200px;
+padding: 15px;
+background-color: rgb(245, 245, 248);
+display: flex;
+margin: 0 10%;
+}
+.m-auto{
+    margin: auto;
+}
+.head{
+    font-size:35px;
+    display: flex;
+}
+.articles{
+/* background-color: rgb(235, 207, 238); */
+margin-top: 20px;
+}
+.article{
+display: flex;
+margin: 19px;
+background-color: #eeeaf1;
+}
+.article-content{
+    align-self: center;
+    padding: 0 25px;
+}
+.article img{
+    height: 190px;
+}
+/* .add{
+    text-align: center;
+    margin-left: 86%;
+    width: 8%;
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 0;
+    border: 2px solid black
+} */
+.add a{
+    text-decoration: none;
+    color: black;
+}
+
+.add{
+    text-align: center;
+    margin-left: 79%;
+    width: 3%;
+    padding-top: 0px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-bottom: 0;
+    border: 2px solid black;
+    border-radius: 23px
+}
+.add:hover{
+    background-color:#eeeaf1 ;
+}
+.max-width-1{
+    width: 80vw;
+}
+.max-width-2{
+    width: 60vw;
+}
+.content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.content-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-right img{
+   width: 210px;
+   height: 210px;
+   border: 2px solid black;
+   border-radius: 200px;
+}
+
+.icon2{
+  margin: 5% 2% 3%;
+  color: black;
+}
+
+.icon2:hover{
+  color: white;
+}
+
+
+
+.footer-section{
+  background-color: #D47FA6;
+    padding: 1% 15%;
+    text-align: center;
+}
